@@ -13,10 +13,6 @@ body{
 }
 
 /* Navbar Style */
-.logo {
-    width: 200px;
-}
-
 .navbar{
     z-index: 3;
 }
@@ -30,30 +26,29 @@ body{
     position: absolute; 
     left: 0; 
     top: 0;
-    width: 140px;
+    width: 10%;
     transform: translate(0px, -95px);
     height: auto;
 }
 
 .img-hero {
     z-index: 2;
-    height: 100%;
     position: absolute; 
     top: 0; 
     right: 0; 
-    width: 480px;
+    width: 40%;
     transform: translate(-130px, 50px);
     height: auto;
 }
 
 .navbar-brand {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 100%;
     color: var(--font-color) !important;
 }
 
 .nav-link {
-    font-size: 16px;
+    font-size: 100%;
 }
 
 .nav-link.active{
