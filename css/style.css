@@ -1,0 +1,132 @@
+:root {
+    --sd-color : #ffffff;
+    --font-color : #414242;
+    --bg1-color : #0877AF;
+    --bg2-color : #1E9B96;
+    --bg3-color : #6ABCB9;
+    --font2-color : #DFA254;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--sd-color);
+}
+
+/* Navbar Style */
+.logo {
+    width: 200px;
+}
+
+.navbar{
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
+.accsent2-img {
+    z-index: 2;
+    position: absolute; 
+    left: 0; 
+    top: 0;
+    width: 140px;
+    transform: translate(0px, -95px);
+    height: auto;
+}
+
+.img-hero {
+    z-index: 2;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 480px;
+    transform: translate(-130px, 50px);
+    height: auto;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--font-color) !important;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+    color: var(--font-color) !important;
+}
+
+.button-secondary {
+    color: var(--font-color);
+    width: 125px;
+    height: 42px;
+    background-color: transparent;
+    border: 2px solid;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.button-primary {
+    color: var(--font-color);
+    width: 125px;
+    height: 42px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Hero Section */
+#hero {
+    background : linear-gradient(-118deg, var(--bg1-color) 5%, var(--bg2-color), var(--sd-color), var(--sd-color), var(--bg3-color));
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-tagline h6 {
+    color: var(--font2-color);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero-tagline h1 {
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hero-tagline p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.button-lg-primary {
+    color: var(--sd-color);
+    font-weight: 700;
+    font-size: 16px;
+    width: 180px;
+    height: 53px;
+    background-color: var(--bg1-color);
+    border-radius: 15px;
+    border: none;
+    margin-right: 20px;
+}
+
+.button-lg-secondary {
+    color: var(--bg1-color);
+    font-weight: 700;
+    font-size: 16px;
+    width: 180px;
+    height: 53px;
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: var(--bg1-color);
+}
